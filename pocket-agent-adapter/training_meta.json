@@ -1,0 +1,17 @@
+{
+  "base_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "lora_rank": 16,
+  "lora_alpha": 32,
+  "epochs": 3,
+  "effective_batch": 16,
+  "lr": 0.0002,
+  "neftune_alpha": 5,
+  "label_smoothing": 0.05,
+  "train_examples": 232,
+  "val_examples": 18,
+  "train_loss": 5.743160205417209,
+  "best_eval_loss": 0.93258136510849,
+  "post_tool_accuracy": 1.0,
+  "post_json_valid_rate": 1.0,
+  "training_minutes": 2.383989159266154
+}

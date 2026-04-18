@@ -1,0 +1,13 @@
+# Python environments
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Huge model files (prevents GitHub 100MB crash)
+*.gguf
+pocket-agent-gguf/
+
+# OS files
+.DS_Store
+Thumbs.db
